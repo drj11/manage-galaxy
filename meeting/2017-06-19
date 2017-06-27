@@ -1,0 +1,27 @@
+# Hidelab Galaxy Meeting 2017-06-19
+
+Win's Office, SITraN
+
+Win Hide, David Jones, Sokratis Kariotis
+
+## Minutes
+
+Agree that the main goals of the Galaxy effort are to:
+
+1. plug into refinery;
+
+2. inestigate possible new workflows;
+
+3. support teaching and service work.
+
+Above now written into README.md.
+
+Following noted:
+
+- we need RNAseq pipelines to work in Galaxy.
+
+- we expect to use Cloudman to manage/install Galaxy in AWS.
+
+- we need to evalutate STAR vs HISAT2 aligner when considering RNAseq workflows.
+
+- we expect to contact rory, brad, ilya for help.
