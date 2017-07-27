@@ -1,3 +1,5 @@
+## General info
+
 * Cloudman console: http://52.23.179.69/cloud/# => access galaxy and add worker nodes.
 * Actual Galaxy instance: http://52.23.179.69/
 * Add admin guide: https://galaxyproject.org/admin/. Add user to ```admin users``` line in /home/ubuntu/galaxy-app/config/galaxy.ini and remember to reboot instance from AWS console
@@ -10,3 +12,5 @@ sh run.sh --pid-file=main.pid --log-file=main.log --stop-daemon
 sh run.sh --pid-file=main.pid --log-file=main.log --daemon
 ```
 *
+## How to install a tool in the Galaxy instance (temporary, until instance is stopped)
+1. create a user
