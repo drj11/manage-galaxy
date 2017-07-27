@@ -22,4 +22,6 @@ If the desired tool is custom then follow https://galaxyproject.org/admin/tools/
 
 ## How to install a tool in the Galaxy instance (permanently, persisting through reboots)
 
+[start from https://galaxyproject.org/cloudman/customizing/]
+
 1. SSH to ubuntu@<current_ip_from_AWS> (ask me for pass) to access the file system of the galaxy instance
