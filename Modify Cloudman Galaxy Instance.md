@@ -7,5 +7,6 @@
 ```sudo su galaxy
 cd /mnt/galaxy/galaxy-app
 sh run.sh --pid-file=main.pid --log-file=main.log --stop-daemon
-sh run.sh --pid-file=main.pid --log-file=main.log --daemon```
-
+sh run.sh --pid-file=main.pid --log-file=main.log --daemon
+```
+*
