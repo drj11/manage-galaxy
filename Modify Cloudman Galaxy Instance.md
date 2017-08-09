@@ -1,7 +1,7 @@
 ## General info
 
-* Cloudman console: http://<public DNS>/cloud/# => access galaxy and add worker nodes.
-* Actual Galaxy instance: http://<public DNS>/
+* Cloudman console: http://public_DNS/cloud/# => access galaxy and add worker nodes.
+* Actual Galaxy instance: http://public_DNS/
 * Add admin guide: https://galaxyproject.org/admin/. Add user to ```admin users``` line in /home/ubuntu/galaxy-app/config/galaxy.ini and remember to reboot instance from AWS console
 * Customise Galaxy instance guide: https://galaxyproject.org/cloudman/customizing/. For example, to add tools or access toolsheds. Remember to persist changes after you make them
 * Manually restart Galaxy instance: 
