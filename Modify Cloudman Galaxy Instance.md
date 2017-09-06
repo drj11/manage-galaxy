@@ -22,8 +22,8 @@ If the desired tool is custom then follow https://galaxyproject.org/admin/tools/
 
 ## How to install a tool in the Galaxy instance (permanently, persisting through reboots)
 
-[start from https://galaxyproject.org/cloudman/customizing/ and https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial/]
+[links used below https://galaxyproject.org/cloudman/customizing/ and https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial/]
 
 1. SSH to ubuntu@<current_ip_from_AWS> (ask me for pass) to access the file system of the galaxy instance
 2. Next, perform the desired changes to the system. The changes supported at this level of instance customization include modifications to the file systems managed by CloudMan. The available file systems are listed on the CloudMan Admin console under entry Persist changes to file system and are mounted on the underlying system under /mnt (e.g., /mnt/galaxy). Modifying contents of these file systems allows you to customize your instance of Galaxy, install or modify tools, as well as modify reference genomes used by Galaxy tools. As you perform the changes, you should respect the ownership of the directories; currently all of these are owned by galaxy user. **Note that if you plan on modifying the Galaxy application, stop the process first from the CloudMan Admin console**.
-3.
+3.Use CloudMan Admin interface to persist changes to the file system: After you have completed all of the desired modifications, disconnect from the ssh session so that your login cannot interfere with filesystem unmounts/remounts. On the CloudMan Admin console, click (under Persist changes to file system) on the name of the file system you wish to preserve and CloudMan will perform the required steps to persist any changes. Note that depending on the amount of changes you performed to the given file system, this process may take a while (Amazon is making a snapshot of the EBS volume and that can take a long time). Once the process completes, you can go back to using the cluster as you normally would; all of the changes will have been preserved after you terminate & relaunch the cluster.
