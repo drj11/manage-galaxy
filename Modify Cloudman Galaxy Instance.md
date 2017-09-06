@@ -22,7 +22,7 @@ If the desired tool is custom then follow https://galaxyproject.org/admin/tools/
 
 ## How to install a tool in the Galaxy instance (permanently, persisting through reboots)
 
-[links used below https://galaxyproject.org/cloudman/customizing/ and https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial/]
+[links used below https://galaxyproject.org/cloudman/customizing/ and https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial/ and for a non-toolshed tool like pathprint https://galaxyproject.org/admin/tools/add-tool-tutorial/]
 
 1. SSH to ubuntu@<current_ip_from_AWS> (ask me for pass) to access the file system of the galaxy instance
 2. Next, perform the desired changes to the system. The changes supported at this level of instance customization include modifications to the file systems managed by CloudMan. The available file systems are listed on the CloudMan Admin console under entry Persist changes to file system and are mounted on the underlying system under /mnt (e.g., /mnt/galaxy). Modifying contents of these file systems allows you to customize your instance of Galaxy, install or modify tools, as well as modify reference genomes used by Galaxy tools. As you perform the changes, you should respect the ownership of the directories; currently all of these are owned by galaxy user. **Note that if you plan on modifying the Galaxy application, stop the process first from the CloudMan Admin console**.
