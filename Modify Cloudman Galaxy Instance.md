@@ -30,4 +30,4 @@ If the desired tool is custom then follow https://galaxyproject.org/admin/tools/
 
 ## About the pathprint Galaxy tool
 
-You can add the pathprint workflow through the Test Toolshed from the Galaxy Admin tab. This downloads the proper files from  https://depot.galaxyproject.org/package/linux/x86_64/ucsc/ucsc-312-Linux-x86_64.tar.gz . The directory where the above are deployed is /mnt/galaxy/tools/ucsc_tools/312/iuc/package_ucsc_tools_312/2d6bafd63401 in the public DNS of the galaxy instance.
+The tool can be found in the test Toolshed of the Galaxy. Thus, the six functions included do not need to be manually installed with the method stated above. So, you can add the pathprint workflow through the Test Toolshed from the Galaxy Admin tab. This downloads the proper files from  https://depot.galaxyproject.org/package/linux/x86_64/ucsc/ucsc-312-Linux-x86_64.tar.gz . The directory where the above are deployed is /mnt/galaxy/tools/ucsc_tools/312/iuc/package_ucsc_tools_312/2d6bafd63401 in the public DNS of the galaxy instance.
